@@ -1,0 +1,49 @@
+
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("playground\fed\portfolio\images\BannerImage.jpg");
+    background-size: cover;
+    position: relative;
+    
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgb(255, 140, 178);
+    border:2px solid rgb(215, 255, 136);
+}
+
+.bIcon {
+    width: 100%;5
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.img-fluid:hover{
+    border:2px solid yellowgreen;
+
+}
+.card-img-top{
+    height: 50vh;
+}
